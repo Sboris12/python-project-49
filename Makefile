@@ -4,11 +4,14 @@ install:
 brain.games:
 	uv run brain-games
 
+brain-even:
+	uv run brain-even
+
 package-install:
 	uv tool install dist/*.whl
 
 run:
-	uv run hexlet-python-package
+	uv run hexlet-python-packagemake
 
 test:
 	uv run pytest
