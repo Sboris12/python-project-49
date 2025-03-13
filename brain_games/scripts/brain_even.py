@@ -1,4 +1,4 @@
-from brain_games.module import greet, even, welcome_user
+from brain_games.module import even, greet, welcome_user
 
 
 def main():
@@ -9,7 +9,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
