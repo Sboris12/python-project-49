@@ -3,6 +3,7 @@ from prompt import string
 from brain_games.games.calc_game import question_calc
 from brain_games.games.even_game import question_even
 from brain_games.games.gcd_game import question_gcd
+from brain_games.games.prime_game import question_prime
 from brain_games.games.progression_game import question_progression
 
 
@@ -25,6 +26,8 @@ def games(game):
         question_calc()
     elif game.__name__ == 'progression':
         question_progression()
+    elif game.__name__ == 'prime':
+        question_prime()
     else:
         question_gcd()
 
