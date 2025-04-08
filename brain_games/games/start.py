@@ -3,6 +3,7 @@ from prompt import string
 from brain_games.games.calc_game import question_calc
 from brain_games.games.even_game import question_even
 from brain_games.games.gcd_game import question_gcd
+from brain_games.games.progression_game import question_progression
 
 
 def greet():
@@ -22,6 +23,8 @@ def games(game):
         question_even()
     elif game.__name__ == 'calc':
         question_calc()
+    elif game.__name__ == 'progression':
+        question_progression()
     else:
         question_gcd()
 

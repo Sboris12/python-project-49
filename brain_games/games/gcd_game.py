@@ -1,7 +1,7 @@
-from random import randint
-from prompt import string
-
 import math
+from random import randint
+
+from prompt import string
 
 
 def question_gcd():
