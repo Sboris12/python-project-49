@@ -14,7 +14,8 @@ def progression():
     prog = [start + step * i for i in range(10)]
     answer = prog[invisible]
     prog[invisible] = '..'
-    print(f"Question: {prog}")
+    question = ' '.join(str(x) for x in prog)
+    print(f"Question: {question}")
     user_answer = string("Your answer: ")
     while True:
         try:

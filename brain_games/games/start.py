@@ -36,7 +36,7 @@ def games(game):
         if not result:
             print(f"'{user_answer}' is wrong answer ;(. "
                   f"Correct answer was '{answer}'."
-                  f"\nLet's try again, {name}!")
+                  f"Let's try again, {name}!")
             break
         else:
             print("Correct!")
