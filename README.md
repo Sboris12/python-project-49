@@ -15,4 +15,4 @@ Start progression game: make progression-even
 
 Example of the games:
 
-<script src="https://asciinema.org/a/mWEvsX8Y6UhPZVf7DNe8BcUM2.js" id="asciicast-mWEvsX8Y6UhPZVf7DNe8BcUM2" async="true"></script>
+[![asciicast](https://asciinema.org/a/mWEvsX8Y6UhPZVf7DNe8BcUM2.svg)](https://asciinema.org/a/mWEvsX8Y6UhPZVf7DNe8BcUM2)

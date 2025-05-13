@@ -3,8 +3,8 @@ from random import randint
 from prompt import string
 
 
-def question_progression():
-    print('What number is missing in the progression?')
+def get_rules():
+    return 'What number is missing in the progression?'
 
 
 def progression():

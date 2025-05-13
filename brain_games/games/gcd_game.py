@@ -4,8 +4,8 @@ from random import randint
 from prompt import string
 
 
-def question_gcd():
-    print('Find the greatest common divisor of given numbers.')
+def get_rules():
+    return 'Find the greatest common divisor of given numbers.'
 
 
 def gcd():

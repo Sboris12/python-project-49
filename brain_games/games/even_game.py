@@ -3,8 +3,8 @@ from random import randint
 from prompt import string
 
 
-def question_even():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+def get_rules():
+    return 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def even():
