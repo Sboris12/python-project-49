@@ -9,15 +9,11 @@ def get_rules():
 
 def prime():
     random_number = randint(2, 9)
+    question = str(random_number)
     answer = 'yes'
     for i in range(2, int(random_number ** 0.5) + 1):
         if random_number % i == 0:
             answer = 'no'
-    print(f"Question: {random_number}")
-    user_answer = string("Your answer: ")
-    if answer == 'yes' and user_answer == "yes":
-        return True, answer, user_answer
-    elif answer == 'no' and user_answer == "no":
-        return True, answer, user_answer
-    else:
-        return False, answer, user_answer
+    return question, answer
+
+

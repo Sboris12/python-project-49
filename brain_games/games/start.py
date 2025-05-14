@@ -15,20 +15,23 @@ def games(game, rules_func):
     greet()
     name = welcome_user()
     print(rules_func())
-
     for i in range(3):
-        result, answer, user_answer = game()
-        if not result:
+        question, answer= game()
+        print(f"Question: {question}")
+        user_answer = string("Your answer: ")
+        if user_answer != answer:
             print(f"'{user_answer}' is wrong answer ;(. "
                   f"Correct answer was '{answer}'."
                   f"Let's try again, {name}!")
             break
         else:
             print("Correct!")
-    if result:
-        win(name)
+            if i == 2:
+                win(name)
 
 
 def win(name):
     print(f'Congratulations, {name}!.')
+
+
 

@@ -3,15 +3,23 @@
 
 Hello, friend.
 
-For use this game your need Python 3.12 or higher
 
-At first use command: make package-install
+This is a training project designed for the hexlet.io course on learning Python.
 
-Start calculation game: make brain-calc
-Start even game: make brain-even
-Start gcd game: make brain-gcd
-Start prime game: make prime-even
-Start progression game: make progression-even
+You are about to experience an interesting and educational set of math games 
+that will help keep your mind sharp and improve your mental arithmetic skills.
+
+To play this game, you need Python 3.12 or higher.
+
+First, run the following command in your terminal:
+make package-install
+
+Use the following commands to launch a game for:
+
+Addition, subtraction, or multiplication: make brain-calc
+Even number check: make brain-even
+Finding the greatest common divisor: make brain-gcd
+Finding the missing number in a progression: make progression-even
 
 Example of the games:
 
