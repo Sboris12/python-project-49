@@ -1,7 +1,5 @@
 from random import randint
 
-from prompt import string
-
 
 def get_rules():
     return 'Answer "yes" if the number is even, otherwise answer "no".'

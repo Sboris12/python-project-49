@@ -1,4 +1,4 @@
-from brain_games.games.progression_game import progression, get_rules
+from brain_games.games.progression_game import get_rules, progression
 from brain_games.games.start import games
 
 

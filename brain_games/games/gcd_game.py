@@ -1,8 +1,6 @@
 import math
 from random import randint
 
-from prompt import string
-
 
 def get_rules():
     return 'Find the greatest common divisor of given numbers.'

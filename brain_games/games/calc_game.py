@@ -1,7 +1,5 @@
 from random import choice, randint
 
-from prompt import string
-
 
 def get_rules():
     return 'What is the result of the expression?'

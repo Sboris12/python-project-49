@@ -1,7 +1,5 @@
 from random import randint
 
-from prompt import string
-
 
 def get_rules():
     return 'What number is missing in the progression?'

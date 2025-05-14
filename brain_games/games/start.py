@@ -16,7 +16,7 @@ def games(game, rules_func):
     name = welcome_user()
     print(rules_func())
     for i in range(3):
-        question, answer= game()
+        question, answer = game()
         print(f"Question: {question}")
         user_answer = string("Your answer: ")
         if user_answer != answer:

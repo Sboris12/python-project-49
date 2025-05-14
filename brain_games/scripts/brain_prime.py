@@ -1,4 +1,4 @@
-from brain_games.games.prime_game import prime, get_rules
+from brain_games.games.prime_game import get_rules, prime
 from brain_games.games.start import games
 
 
