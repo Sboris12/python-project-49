@@ -5,7 +5,7 @@ def get_rules():
     return 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def even():
+def game():
     random_number = randint(1, 9)
     question = str(random_number)
     if random_number % 2 == 0:

@@ -5,7 +5,7 @@ def get_rules():
     return 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def prime():
+def game():
     random_number = randint(2, 9)
     question = str(random_number)
     answer = 'yes'

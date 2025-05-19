@@ -1,19 +1,10 @@
 from prompt import string
 
 
-def greet():
+def games(game, rules_func):
     print("Welcome to the Brain Games!")
-
-
-def welcome_user():
     name = string("May I have your name? ")
     print(f"Hello, {name}!")
-    return name
-
-
-def games(game, rules_func):
-    greet()
-    name = welcome_user()
     print(rules_func())
     for i in range(3):
         question, answer = game()
@@ -27,11 +18,8 @@ def games(game, rules_func):
         else:
             print("Correct!")
             if i == 2:
-                win(name)
+                print(f'Congratulations, {name}!.')
 
-
-def win(name):
-    print(f'Congratulations, {name}!.')
 
 
 

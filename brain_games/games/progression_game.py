@@ -5,7 +5,7 @@ def get_rules():
     return 'What number is missing in the progression?'
 
 
-def progression():
+def game():
     start = randint(1, 9)
     step = randint(1, 9)
     invisible = randint(0, 9)
