@@ -1,9 +1,8 @@
-from brain_games.start import greet, welcome_user
+from brain_games.start import games
 
 
 def main():
-    greet()
-    welcome_user()
+    games()
 
 
 if __name__ == "__main__":
