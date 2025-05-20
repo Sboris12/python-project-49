@@ -5,7 +5,7 @@ def get_rules():
     return 'What is the result of the expression?'
 
 
-def game():
+def game_logic():
     operators = ['+', '-', '*']
     random_number_1 = randint(1, 9)
     random_number_2 = randint(1, 9)
