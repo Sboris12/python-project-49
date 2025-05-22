@@ -1,11 +1,9 @@
 from random import randint
 
-
-def get_rules():
-    return 'What number is missing in the progression?'
+GET_RULES = 'What number is missing in the progression?'
 
 
-def game_logic():
+def generate_round_datac():
     start = randint(1, 9)
     step = randint(1, 9)
     invisible = randint(0, 9)

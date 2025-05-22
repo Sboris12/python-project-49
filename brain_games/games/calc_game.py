@@ -1,11 +1,9 @@
 from random import choice, randint
 
-
-def get_rules():
-    return 'What is the result of the expression?'
+GET_RULES = 'What is the result of the expression?'
 
 
-def game_logic():
+def generate_round_data():
     operators = ['+', '-', '*']
     random_number_1 = randint(1, 9)
     random_number_2 = randint(1, 9)

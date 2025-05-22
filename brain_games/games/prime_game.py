@@ -1,11 +1,9 @@
 from random import randint
 
-
-def get_rules():
-    return 'Answer "yes" if given number is prime. Otherwise answer "no".'
+GET_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def game_logic():
+def generate_round_data():
     random_number = randint(2, 9)
     question = str(random_number)
     answer = 'yes'

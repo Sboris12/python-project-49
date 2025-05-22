@@ -1,11 +1,9 @@
 from random import randint
 
-
-def get_rules():
-    return 'Answer "yes" if the number is even, otherwise answer "no".'
+GET_RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def game_logic():
+def generate_round_data():
     random_number = randint(1, 9)
     question = str(random_number)
     if random_number % 2 == 0:

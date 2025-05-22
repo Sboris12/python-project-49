@@ -1,15 +1,15 @@
 from prompt import string
 
-rounds = 3
+ROUNDS_COUNT = 3
 
 
-def games(game):
+def run(game):
     print("Welcome to the Brain Games!")
     name = string("May I have your name? ")
     print(f"Hello, {name}!")
-    print(game.get_rules())
-    for i in range(rounds):
-        question, answer = game.game_logic()
+    print(game.GET_RULES)
+    for i in range(ROUNDS_COUNT):
+        question, answer = game.generate_round_data()
         print(f"Question: {question}")
         user_answer = string("Your answer: ")
         if user_answer == answer:

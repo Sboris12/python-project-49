@@ -1,12 +1,10 @@
 import math
 from random import randint
 
-
-def get_rules():
-    return 'Find the greatest common divisor of given numbers.'
+GET_RULES = 'Find the greatest common divisor of given numbers.'
 
 
-def game_logic():
+def generate_round_data():
     random_number_1 = randint(1, 9)
     random_number_2 = randint(1, 9)
     question = f"{random_number_1} {random_number_2}"
