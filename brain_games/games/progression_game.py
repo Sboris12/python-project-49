@@ -3,7 +3,7 @@ from random import randint
 GET_RULES = 'What number is missing in the progression?'
 
 
-def generate_round_datac():
+def generate_round_data():
     start = randint(1, 9)
     step = randint(1, 9)
     invisible = randint(0, 9)
